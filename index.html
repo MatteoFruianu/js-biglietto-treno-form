@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="hero">
+
+    <h2>calcola il prezzo del tuo biglietto</h2>
+     <div class="dati-utente">
+
+         <label for="nome">Nome</label>
+         <input type="text" name="" id="nome">
+
+         <label for="km">Km da percorrere</label>
+         <input type="number" name="" id="km">
+
+         <label for="eta">Fascia d'età</label>
+         <select name="eta-passeggero" id="eta">
+            <option value="minorenne">Minorenne</option>
+            <option value="maggiorenne">Maggiorenne</option>
+            <option value="over65">Over 65</option>
+         </select>
+
+         <div class="actions">
+            <button id="genera">Genera</button>
+
+            <button id="annulla">Annulla</button>
+         </div>   
+
+     </div>   
+    
+
+     <h2>Il tuo biglietto</h2>
+     <div class="biglietto-utente">
+         <ul>
+             <li>Nome passeggero: <span id="nome-passeggero"></span></li>
+             <li>Offerta: <span id="offerta-tipo"></span></li>
+             <li>Carrozza: <span id="numero-carrozza"></span></li>
+             <li>Codice CP: <span id="codice-cp"></span></li>
+             <li>Costo Biglietto: <span id="costo-biglietto"></span></li>
+         </ul>
+
+     </div>
+    
+
+
+    </div>
+
+
+
+    
+
+    
+
+  
+    
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
